@@ -1,0 +1,15 @@
+
+    <div class="header">
+        Header
+    </div>
+    <div class="navbar">
+    Account
+    </div>
+    
+    <div class="sidebar"  *ngIf="currentUser">
+      <button (click)="signinpage()">Login</button><br>
+      <button *ngIf="isAdmin" (click)="adminpage()">Admin</button><br>
+      <button (click)="registerpage()">Register</button><br>
+      <button (click)="logout()">Logout</button>
+    </div>
+<router-outlet></router-outlet>

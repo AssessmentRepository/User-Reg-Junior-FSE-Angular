@@ -1,0 +1,40 @@
+{
+  "login": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "repeatpassword": "admin",
+      "email": "admin@example.com",
+      "profilepic": "test.png",
+      "role": "Admin",
+      "id": 1
+    },
+    {
+      "username": "test",
+      "password": "test",
+      "repeatpassword": "Abc12345",
+      "email": "test@example.com",
+      "profilepic": "test.png",
+      "role": "User",
+      "id": 2
+    },
+    {
+      "username": "testname",
+      "password": "Abc12345",
+      "repeatpassword": "12345678",
+      "email": "test@example.com",
+      "profilepic": "test.png",
+      "role": "User",
+      "id": 3
+    },
+    {
+      "username": "testone",
+      "password": "testone",
+      "repeatpassword": "testone",
+      "email": "test@test.com",
+      "profilepic": null,
+      "role": "User",
+      "id": 4
+    }
+  ]
+}
